@@ -2,6 +2,7 @@ from flask import Flask
 from random import randint
 
 from projects.python_calculator.calculator import Calculator
+from kubernetes import client
 
 app = Flask(__name__)
 my_calculator = Calculator()
